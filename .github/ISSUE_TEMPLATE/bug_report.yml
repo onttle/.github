@@ -1,0 +1,39 @@
+name: Bug report / 버그 제보
+description: Something in this repository's code does not work as described.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form is for the code in this repository. For the Onttle service itself, email support@onttle.com.
+        Do not paste API keys or tokens. / API 키나 토큰은 붙여 넣지 마세요.
+  - type: input
+    id: where
+    attributes:
+      label: Where / 위치
+      description: Example name, file or page URL.
+      placeholder: blog, app/posts/[slug]/page.tsx
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened / 발생한 문제
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce / 재현 방법
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment / 환경
+      placeholder: Node 22, macOS, Chrome

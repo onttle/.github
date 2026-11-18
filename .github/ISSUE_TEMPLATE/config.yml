@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Onttle service support / 서비스 문의
+    url: mailto:support@onttle.com
+    about: Account, billing and API questions about the Onttle service go to support@onttle.com.
+  - name: Documentation / 문서
+    url: https://onttle.com/docs
+    about: How Onttle works.
+  - name: Security report / 보안 제보
+    url: https://github.com/onttle/.github/blob/main/SECURITY.md
+    about: Please do not report security problems in a public issue.
